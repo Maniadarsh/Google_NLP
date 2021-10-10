@@ -16,7 +16,7 @@ USER STORIES:
 Find negative and positive trends
 
 USERS:
-Analysts
+Analysts,
 Business owners
 
 MVP:
