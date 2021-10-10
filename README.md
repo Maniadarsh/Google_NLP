@@ -9,16 +9,23 @@ Name,type and salience were analysed in entity analysis.
 source: https://codelabs.developers.google.com/codelabs/cloud-natural-language-python3#6
 
 
-Then a simple code was done to understand the working of twitter API. The program took a keyword and outputs all the tweets related to the keyword.
+Then a simple code was done to understand the working of twitter API. The program took a keyword and outputs all the tweets related to the keyword. Document
 Specific modules such as tweepy were imported for that. The output for twitter API can be seen in the wiki page.
 
 USER STORIES:
 Find negative and positive trends
 
-USERS
+USERS:
 Analysts
 Business owners
 
-MVP
+MVP:
 A product that takes a keyword and does sentiment analysis on it.
 
+2 programs were executed one with a positive keyword and another with a negative keyword. Twitter and google cloud modules required for running the API were imported. 5 modules were defined. 
+
+First module for authenticating Twitter API. Second module for retrieving tweets from twitter according to the keyword and count.
+Third module for cleaning the tweets i.e removing hyoerlinks, special characters etc.
+Fourth module for calling the google API and getting the score of the tweet. "The score of a Tweet's sentiment indicates the overall emotion of a Tweet" - Natural Language API Basics.
+Fifth module is where the above mentioned modules are called to perform the analysis and the score is printed.
+Output of the two programs are also mentioned in the text file along with the source code.
