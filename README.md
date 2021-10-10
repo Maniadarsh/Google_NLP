@@ -10,5 +10,15 @@ source: https://codelabs.developers.google.com/codelabs/cloud-natural-language-p
 
 
 Then a simple code was done to understand the working of twitter API. The program took a keyword and outputs all the tweets related to the keyword.
-Specific modules such as tweepy were imported for that.
+Specific modules such as tweepy were imported for that. The output for twitter API can be seen in the wiki page.
+
+USER STORIES:
+Find negative and positive trends
+
+USERS
+Analysts
+Business owners
+
+MVP
+A product that takes a keyword and does sentiment analysis on it.
 
