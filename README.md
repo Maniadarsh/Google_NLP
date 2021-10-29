@@ -20,7 +20,7 @@ Analysts,
 Business owners
 
 MVP:
-A product that takes a keyword and does sentiment analysis on it.
+A product that takes a keyword and does sentiment analysis on the tweets that contain the keyword.
 
 2 programs were executed one with a positive keyword and another with a negative keyword. Twitter and google cloud modules required for running the API were imported. 5 modules were defined. 
 
