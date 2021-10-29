@@ -32,6 +32,7 @@ Output of the two programs are also mentioned in the text file along with the so
 Github actions were added which involved adding a .yaml file, which checks out the pushed code, installs the software dependencies, and runs bats -v.
 
 test_nlp2.py was created which contains the following units tests:
+
 1.)Test to check whether get_sentiment_score() fn return a value between -1 and 1
 
 2.)check the type of value returned by get_sentiment_score(tweet) fn
