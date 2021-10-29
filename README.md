@@ -29,4 +29,4 @@ Third module for cleaning the tweets i.e removing hyoerlinks, special characters
 Fourth module for calling the google API and getting the score of the tweet. "The score of a Tweet's sentiment indicates the overall emotion of a Tweet" - Natural Language API Basics.
 Fifth module is where the above mentioned modules are called to perform the analysis and the score is printed.
 Output of the two programs are also mentioned in the text file along with the source code.
-Github actions were whivh involved adding a .yaml file, which checks for the python version everytime a code is pushed to the repository.
+Github actions were added which involved adding a .yaml file, which checks out the pushed code, installs the software dependencies, and runs bats -v.
