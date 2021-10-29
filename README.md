@@ -30,3 +30,12 @@ Fourth module for calling the google API and getting the score of the tweet. "Th
 Fifth module is where the above mentioned modules are called to perform the analysis and the score is printed.
 Output of the two programs are also mentioned in the text file along with the source code.
 Github actions were added which involved adding a .yaml file, which checks out the pushed code, installs the software dependencies, and runs bats -v.
+
+test_nlp2.py was created which contains the following units tests:
+1.)Test to check whether get_sentiment_score() fn return a value between -1 and 1
+
+2.)check the type of value returned by get_sentiment_score(tweet) fn
+
+3.)checking whether clean_tweets(tweet) returns any tweets with hyperlinks in it
+
+4.)if total_tweets varaiable is not of type int
