@@ -13,7 +13,9 @@ Then a simple code was done to understand the working of twitter API. The progra
 Specific modules such as tweepy were imported for that. The output for twitter API can be seen in the wiki page.
 
 USER STORIES:
-Find negative and positive trends
+Find negative and positive trends. 
+
+Trends imply that for a new product released in the market, product owners can see how well is the reception for their product, this is one of the many use cases. 
 
 USERS:
 Analysts,
@@ -41,3 +43,6 @@ test_nlp2.py was created which contains the following units tests:
 3.)checking whether clean_tweets(tweet) returns any tweets with hyperlinks in it
 
 4.)if total_tweets varaiable is not of type int
+
+OUTPUT:
+
